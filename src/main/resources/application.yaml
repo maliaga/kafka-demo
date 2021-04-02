@@ -1,0 +1,4 @@
+app:
+  config:
+    topic-name: avro-topic
+    group-id: avro-group
