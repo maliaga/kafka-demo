@@ -1,0 +1,3 @@
+app:
+  config:
+    topic-name: avro-topic
