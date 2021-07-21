@@ -39,7 +39,7 @@ public class KafKaProducerService {
             public void onSuccess(SendResult<String, User> result) {
                 log.info("ok send ");
                 log.info("ok FirstName = {}", result.getProducerRecord().value().getFirstName());
-                log.error("ok Key = {}", result.getProducerRecord().key());
+                log.info("ok Key = {}", result.getProducerRecord().key());
                 log.info("ok LastName = {}", result.getProducerRecord().value().getLastName());
                 log.info("ok send offset = {}", result.getRecordMetadata().offset());
                 log.info("ok send key size = {}", result.getRecordMetadata().serializedKeySize());
