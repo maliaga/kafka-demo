@@ -1,5 +1,5 @@
 {
-  "namespace": "cl.transbank.kafka.avro.model",
+  "namespace": "dev.aliaga.kafka.avro.model",
   "type": "record",
   "name": "User",
   "fields": [
